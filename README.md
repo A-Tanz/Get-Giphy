@@ -5,7 +5,7 @@ It uses nodejs,express and various modules like request,ejs,etc
 Here its the link for Get Giphy -> https://protected-escarpment-12181.herokuapp.com/
 <br>
 Github link for the Project -> https://github.com/A-Tanz/Get-Giphy
-# How to use
+<h1>How to use</h1>
 Clone the repository in your local system<br>
 cd to the project the folder<br>
 install the npm packages<br>
