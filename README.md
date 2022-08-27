@@ -1,5 +1,5 @@
 <h1>Get Giphy</h1>
-It uses API from Giphy Developer to display gifs.<br>
+It uses API from Giphy Developer to display Gifs.<br>
 It uses nodejs,express and various modules like request,ejs,etc
 <br>
 Here its the link for Get Giphy -> https://protected-escarpment-12181.herokuapp.com/
