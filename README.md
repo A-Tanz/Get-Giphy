@@ -11,7 +11,7 @@ cd to the project the folder<br>
 install the npm packages<br>
 type nodemon app.js in terminal<br>
 Website shall start at localhost:3000
-# Screenshots
+<h1>Screenshots</h1>
 <h3>Home Page</h3>
 <img src="https://user-images.githubusercontent.com/96045452/186987542-7af70036-1c21-4b42-84bc-c651c3fe86c8.png"/>
 <h3>Gifs page</h3>
