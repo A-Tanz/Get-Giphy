@@ -12,7 +12,7 @@ Once you have installed Node.js, you can install the application by following th
 - Clone the repository from GitHub or download the source code as a zip file.
 - Navigate to the root directory of the application in your terminal or command prompt.
 - Run the command `npm install` to install all of the necessary dependencies.
-- Start the Application using `npm app.js` and visit `localhost:3000` to use it.
+- Start the Application using `node app.js` and visit `localhost:3000` to use it.
 
 This application also support installation through dockerfile. Run `docker-compose up` to start the application and `docker-compose down` to stop it.
 
