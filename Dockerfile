@@ -5,13 +5,14 @@ FROM node:14
 WORKDIR /app
 
 # Copy the required files to the container
-COPY package*.json .
-COPY /public /public
-COPY /views /views
+COPY package*.json ./ 
+COPY /public /app/public
+COPY /views /app/views
 COPY index.html .
+COPY app.js .
 
 # Install the application dependencies
-RUN npm install
+RUN npm install --no-cache
 
 # Specify the command to run when the container starts
-CMD [ "npm", "app.js" ]
+CMD [ "node", "app.js" ]
