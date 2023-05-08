@@ -13,5 +13,6 @@ COPY index.html .
 # Install the application dependencies
 RUN npm install
 
+EXPOSE 3000
 # Specify the command to run when the container starts
 CMD [ "npm", "app.js" ]
