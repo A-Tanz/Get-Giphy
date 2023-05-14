@@ -14,5 +14,6 @@ COPY app.js .
 # Install the application dependencies
 RUN npm install --no-cache
 
+EXPOSE 3000
 # Specify the command to run when the container starts
 CMD [ "node", "app.js" ]
